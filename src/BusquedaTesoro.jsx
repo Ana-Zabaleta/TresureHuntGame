@@ -54,7 +54,7 @@ function BusquedaTesoro() {
         copiaTablero[filaIndex][columnaIndex] = imgChestUrl;
         setTablero(copiaTablero);
         setTimeout(() => {
-          alert("¡Enhorabuena! Has ganado"); // Luego muestra la alerta después de un pequeño retraso
+          alert("🎉¡Enhorabuena! Has ganado🎉");
         }, 200);
       } else {
         const copiaTablero = [...tablero];
